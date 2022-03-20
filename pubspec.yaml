@@ -1,0 +1,190 @@
+name: ghumante
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  font_awesome_flutter: ^9.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^1.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+  - assets/images/Kathmandu.jpg
+  - assets/images/mustang.jpg
+  - assets/images/illam.jpg
+  - assets/images/pokhara.jpg
+  - assets/images/shey-phoksundo.jpg
+  - assets/images/rara.jpeg
+  - assets/images/Janakpur Dham.jpg
+  - assets/images/hmc.jpg
+  - assets/images/Baber Mahal Vilas.jpg
+  - assets/images/barahi jungle lodge.jpg
+  - assets/images/Hyatt Regency.jpg
+  - assets/images/Marriott.jpg
+  - assets/images/Dwarika.jpg
+  - assets/images/nepal.jpg
+  - assets/images/mteverest.jpg
+  - assets/images/bhojpur.jpg
+  - assets/images/hatuwagadi.jpg
+  - assets/images/Mundum Trek.jpg
+  - assets/images/khotang.jpg
+  - assets/images/Halesi Mahadev.jpg
+  - assets/images/solukhumbu.jpg
+  - assets/images/Mount.jpg
+  - assets/images/Sagarmatha National Park.jpg
+  - assets/images/Kanyam.jpg
+  - assets/images/Maipokhari.jpg
+  - assets/images/Sandakpur.jpg
+  - assets/images/Shreeantu.jpg
+  - assets/images/Taplejung.jpeg
+  - assets/images/Pathivara.jpg
+  - assets/images/Timbung-view-pokhari.jpg
+  - assets/images/Sarlahi.jpg
+  - assets/images/Salhesh-fulbari.jpg
+  - assets/images/Dhanusha.jpg
+  - assets/images/Janakpur Dham.jpg
+  - assets/images/Bara.jpg
+  - assets/images/Gadhimai_Temple.jpg
+  - assets/images/Simraungadh.jpg
+  - assets/images/Bhaktapur.jpg
+  - assets/images/Bhairavnath temple.jpg
+  - assets/images/Siddha Pokhari.jpg
+  - assets/images/Changu Narayan Temple.jpeg
+  - assets/images/Nyatapola Temple.jpg
+  - assets/images/Kathmandu.jpg
+  - assets/images/Lalitpur.jpg
+  - assets/images/Golden Temple.png
+  - assets/images/Krishna Mandir.png
+  - assets/images/patan-durbar.png
+  - assets/images/Chitwan.jpg
+  - assets/images/Chitwan-National-Park.jpg
+  - assets/images/siraichuli hiking.jpg
+  - assets/images/Boudha.jpg
+  - assets/images/Boudhanath stupa.jpg
+  - assets/images/Budhanilkantha.jpg
+  - assets/images/Pashupatinath.jpg
+  - assets/images/Swayambhunath.jpg
+  - assets/images/Gorkha.jpg
+  - assets/images/Gorakha Nath Temple.jpg
+  - assets/images/manakamana-temple.jpg
+  - assets/images/Mount Manaslu.jpg
+  - assets/images/Kaski.jpg
+  - assets/images/Annapurna.jpg
+  - assets/images/Ghandruk.jpg
+  - assets/images/Pokhara.png
+  - assets/images/Manang.jpg
+  - assets/images/Tilicho Lake.jpg
+  - assets/images/Muktinath.jpg
+  - assets/images/Redcliffs.jpg
+  - assets/images/Kapilvastu.jpg
+  - assets/images/Gotihawa.jpg
+  - assets/images/Tilaurakot.jpg
+  - assets/images/Lumbini.jpg
+  - assets/images/Rupandehi.jpg
+  - assets/images/rani mahal.jpg
+  - assets/images/Talpokhari.jpg
+  - assets/images/Palpa.jpg
+  - assets/images/Bardiya National Park.jpg
+  - assets/images/kedareshwor dham.jpg
+  - assets/images/Bardiya.jpg
+  - assets/images/Dolpa.jpg
+  - assets/images/Humla.jpg
+  - assets/images/Nara La Pass.jpg
+  - assets/images/Upper Humla Circuit Trek.jpg
+  - assets/images/Jumla.jpg
+  - assets/images/Jumla Bazar.jpg
+  - assets/images/Sinja valley.jpg
+  - assets/images/Tatopani.jpg
+  - assets/images/Rara lake.jpg
+  - assets/images/Mugu.jpeg
+  - assets/images/bulbule-lake.jpg
+  - assets/images/Surkhet.jpg
+  - assets/images/pp.jpg
+  - assets/images/Kailali.jpg
+  - assets/images/Ghodaghodi lake.jpg
+  - assets/images/Tikapur park.jpg
+  - assets/images/khaptad national park.jpg
+  - assets/images/Achham.jpg
+  - assets/images/Kanchanpur.jpg
+  - assets/images/Suklaphata.jpg
+  - assets/images/Dadeldhura.jpg
+  - assets/images/AjaymeruKot.jpg
+  - assets/images/ugratara.jpg
+
+  
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
